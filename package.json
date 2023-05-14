@@ -1,0 +1,26 @@
+{
+  "name": "node-with-sequelize-code",
+  "version": "1.0.0",
+  "description": "This application will have Sequelize concepts with real code examples",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmanSultanBaig/Node-with-Sequelize-Code.git"
+  },
+  "author": "Aman Sultan Baig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmanSultanBaig/Node-with-Sequelize-Code/issues"
+  },
+  "homepage": "https://github.com/AmanSultanBaig/Node-with-Sequelize-Code#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
