@@ -18,5 +18,6 @@ const db = {};
 
 db.Sequelize = Sequelize;
 db.sequelize = sequelize;
+db.school = require("./models/school.model")(sequelize, Sequelize);
 
 module.exports = db;

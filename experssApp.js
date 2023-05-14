@@ -1,7 +1,10 @@
+const express = require("express");
+const schoolController = require("./controllers/school-controller");
+
 const expressApplication = (app) => {
-  app.get("/", (req, res) => {
-    res.send("Hello World");
-  });
+  app.use(express.json());
+  app.use(express.urlencoded({ extended: true }));
+  app.use("/school", schoolController);
 };
 
 module.exports = expressApplication;
