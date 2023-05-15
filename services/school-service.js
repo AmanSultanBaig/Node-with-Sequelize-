@@ -1,6 +1,4 @@
-const db = require("../db/connection");
-const School = db.school;
-
+const School = require("../db/models/school.model");
 class SchoolService {
   getAllSchools = async () => {
     try {
