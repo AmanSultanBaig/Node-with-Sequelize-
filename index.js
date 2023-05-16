@@ -7,7 +7,7 @@ require("dotenv").config();
 const port = process.env.PORT || 5000;
 
 const startApplication = async () => {
-  await sequelize.sync({ force: true });
+  await sequelize.sync({ force: false });
   expressApplication(app);
   app.listen(port, () => console.log("Application is running"));
 };
